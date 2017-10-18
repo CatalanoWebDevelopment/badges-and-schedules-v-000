@@ -22,4 +22,5 @@ end
 def printer(attendees)
   assign_rooms(attendees).map do |badges|
     puts badges
+  end
 end
