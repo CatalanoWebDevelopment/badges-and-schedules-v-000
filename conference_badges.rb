@@ -22,5 +22,7 @@ end
 def printer(attendees)
   assign_rooms(attendees).each do |x|
     puts "#{x}"
+    value = x
   end
+  return value
 end
