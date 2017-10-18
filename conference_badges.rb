@@ -21,7 +21,8 @@ end
 
 def printer(attendees)
   assign_rooms(attendees).map do |x|
-    yes = puts "#{x}"
+    output = puts "#{x}"
+    return output
   end
-  return yes
+  
 end
