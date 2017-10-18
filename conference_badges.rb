@@ -24,5 +24,4 @@ def printer(attendees)
     puts "#{x}"
     value = x
   end
-  return value
 end
