@@ -20,6 +20,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
+  badges = []
   assign_rooms(attendees).each do |x|
     puts "#{x}"
     value = x
