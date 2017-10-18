@@ -22,5 +22,6 @@ end
 def printer(attendees)
   assign_rooms(attendees).map do |x|
     puts "#{x}"
+    binding.pry
   end
 end
