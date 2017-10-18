@@ -20,5 +20,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  puts assign_rooms(attendees)
+  assign_rooms(attendees).map |attendents|
+    puts "#{attendents}"
+  end
 end
