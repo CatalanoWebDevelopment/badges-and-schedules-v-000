@@ -20,7 +20,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  assign_rooms(attendees).map |attendents|
+  assign_rooms(attendees).map do |attendents|
     puts "#{attendents}"
   end
 end
