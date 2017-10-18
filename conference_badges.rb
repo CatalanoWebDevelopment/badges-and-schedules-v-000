@@ -24,5 +24,5 @@ def printer(attendees)
     output = puts "#{x}"
     return output
   end
-  
+
 end
